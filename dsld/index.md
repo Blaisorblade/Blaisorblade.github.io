@@ -7,7 +7,7 @@ title: Formal Semantics as a Language Designer’s Toolbox ─ A case for semant
 This is the homepage for our *Formal Semantics as a Language Designer’s Toolbox --- A case for semantics-inspired language design* abstract and relevant project.
 
 # Talks
-  - [Formal Semantics as a Language Designer’s Toolbox --- A case for semantics-inspired language design](Abstract-submitted.pdf) (updated version). With Klaus Ostermann, Tillmann Rendel and Eric Walkingshaw. We are at DSLDI '14.
+  - [Formal Semantics as a Language Designer’s Toolbox --- A case for semantics-inspired language design](Abstract-submitted.pdf). With Klaus Ostermann, Tillmann Rendel and Eric Walkingshaw. We will present a talk at DSLDI '14.
 
     **Abstract**:
 
