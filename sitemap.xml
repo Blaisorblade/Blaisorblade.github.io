@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blaisorblade.github.io/blog/2014/11/03/functional-programming-and-condescension/</loc>
-    <lastmod>2014-11-03T15:18:16+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>http://blaisorblade.github.io/blog/2014/11/03/welcome-to-my-new-blog/</loc>
-    <lastmod>2014-11-03T01:38:22+01:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>http://blaisorblade.github.io/blog/archives/</loc>
-    <lastmod>2014-11-03T11:18:31+01:00</lastmod>
+    <lastmod>2014-11-03T11:22:17+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://blaisorblade.github.io/</loc>
-    <lastmod>2014-11-03T11:18:31+01:00</lastmod>
+    <lastmod>2014-11-03T11:22:17+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://blaisorblade.github.io/dsld/</loc>
-    <lastmod>2014-11-03T11:18:31+01:00</lastmod>
+    <lastmod>2014-11-03T11:22:17+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://blaisorblade.github.io/about/</loc>
-    <lastmod>2014-11-03T11:18:31+01:00</lastmod>
+    <lastmod>2014-11-03T11:22:17+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
