@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Blaisorblade's blog]]></title>
-  <link href="http://blaisorblade.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Community | Blaisorblade's blog]]></title>
+  <link href="http://blaisorblade.github.io/blog/categories/community/atom.xml" rel="self"/>
   <link href="http://blaisorblade.github.io/"/>
   <updated>2014-11-03T11:18:31+01:00</updated>
   <id>http://blaisorblade.github.io/</id>
@@ -76,20 +76,6 @@
 <p>In some contexts (such as mission-critical software)</p>
 
 <p>Historically, I conjecture the culture of condescension </p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome to My New Blog!]]></title>
-    <link href="http://blaisorblade.github.io/blog/2014/11/03/welcome-to-my-new-blog/"/>
-    <updated>2014-11-03T01:38:22+01:00</updated>
-    <id>http://blaisorblade.github.io/blog/2014/11/03/welcome-to-my-new-blog</id>
-    <content type="html"><![CDATA[<p>I’ve finally decided to switch to a Jekyll blog and start blogging for real.</p>
-
-<p>To force myself to blog more, I’ve decided to switch to a </p>
-
-<p>I am a PhD student in the Programming Languages.</p>
-
 ]]></content>
   </entry>
   
