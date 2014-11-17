@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-sharing: true
+sharing: false
 footer: true
 ---
 
