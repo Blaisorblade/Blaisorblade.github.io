@@ -8,7 +8,7 @@ footer: true
 ### In Tübingen University
 
 * Winter Semester 2014/15: Seminar on
-  [*Metaprogramming*](http://ps-mr.github.io/ws14-metaprogramming.html).
+  [*Metaprogramming*](http://ps.informatik.uni-tuebingen.de/teaching/ws14/mp/)
 
 ### In Marburg University
 
