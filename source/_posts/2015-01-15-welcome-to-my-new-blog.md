@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Welcome to my new blog!"
-date: 2014-11-03 01:38:22 +0100
+date: 2015-01-15 08:16:38 +0100
 comments: true
-published: false
 categories: [Meta]
 ---
 
