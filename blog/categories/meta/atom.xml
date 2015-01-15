@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Paolo G. Giarrusso's blog & website]]></title>
-  <link href="http://blaisorblade.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Meta | Paolo G. Giarrusso's blog & website]]></title>
+  <link href="http://blaisorblade.github.io/blog/categories/meta/atom.xml" rel="self"/>
   <link href="http://blaisorblade.github.io/"/>
   <updated>2015-01-15T08:21:02+01:00</updated>
   <id>http://blaisorblade.github.io/</id>
@@ -18,7 +18,7 @@
     <link href="http://blaisorblade.github.io/blog/2015/01/15/welcome-to-my-new-blog/"/>
     <updated>2015-01-15T08:16:38+01:00</updated>
     <id>http://blaisorblade.github.io/blog/2015/01/15/welcome-to-my-new-blog</id>
-    <content type="html"><![CDATA[<p>Welcome to my new blog! I am a PhD student in Programming Languages, and my blog will focus on programming, programming languages (especially Scala and Haskell) and <a href="http://blaisorblade.github.io/about/#research-interests">my research interests</a>.</p>
+    <content type="html"><![CDATA[<p>Welcome to my new blog! I am a PhD student in Programming Languages, and my blog will focus on programming, programming languages (especially Scala and Haskell) and <a href="/about/#research-interests">my research interests</a>.</p>
 
 <p>After <a href="http://blaisorbladeprog.blogspot.com">my last blog</a>, I’ve finally decided
 to start blogging again. I’ve finally decided to switch to a Jekyll-style
