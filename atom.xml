@@ -4,7 +4,7 @@
   <title><![CDATA[Paolo G. Giarrusso's blog & website]]></title>
   <link href="http://blaisorblade.github.io/atom.xml" rel="self"/>
   <link href="http://blaisorblade.github.io/"/>
-  <updated>2015-01-17T18:50:03+01:00</updated>
+  <updated>2015-01-17T23:27:46+01:00</updated>
   <id>http://blaisorblade.github.io/</id>
   <author>
     <name><![CDATA[Paolo G. Giarrusso]]></name>
@@ -24,7 +24,7 @@ their <a href="http://www.pps.univ-paris-diderot.fr/seminaire/">PPS seminar</a>.
 excited about this visit, and I plan to talk about our progress since our PLDI
 2014 paper.</p>
 
-<p>Below the abstract of the talk.</p>
+<p>Below the abstract of the talk. I plan to upload slides later.</p>
 
 <h3 id="incrementalizing--calculi-by-static-differentiation-a-theory-of-changes-for-higher-order-languages-and-ongoing-work">Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work</h3>
 
