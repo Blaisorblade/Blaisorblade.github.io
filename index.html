@@ -9,7 +9,8 @@
   <meta name="author" content="Paolo G. Giarrusso">
 
   
-  <meta name="description" content="Welcome to my new blog! I am a PhD student in Programming Languages, and my blog will focus on programming, programming languages (especially Scala &hellip;">
+  <meta name="description" content="For my work on Incremental λ-Calculus (ILC), next week I’m visiting the
+Paris-Diderot (Paris 7) University, and I’ll have a chance of giving a talk &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,6 +72,66 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/2015/01/15/a-talk-on-ilc/">A Talk on Incremental λ-Calculus</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-15T08:18:48+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:18 am</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>For my work on Incremental λ-Calculus (ILC), next week I’m visiting the
+Paris-Diderot (Paris 7) University, and I’ll have a chance of giving a talk at
+their <a href="http://www.pps.univ-paris-diderot.fr/seminaire/">PPS seminar</a>. I’m very
+excited about this visit, and I plan to talk about our progress since our PLDI
+2014 paper.</p>
+
+<p>Below the abstract of the talk.</p>
+
+<h3 id="incrementalizing--calculi-by-static-differentiation-a-theory-of-changes-for-higher-order-languages-and-ongoing-work">Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work</h3>
+
+<p>[Joint work with Yufei Cai, Tillmann Rendel and Klaus Ostermann]</p>
+
+<p><strong>Abstract:</strong></p>
+
+<p>If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation.
+I’ll give an overview of our approach to this problem, as presented in our recent paper [1], and discuss ongoing work.</p>
+
+<p>We incrementalize programs using derivatives: A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.</p>
+
+<p>We proved the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.</p>
+
+<p>In ongoing work, we are investigating different extensions:</p>
+
+<ul>
+  <li>simplifying our correctness proofs using category theory and realizability;</li>
+  <li>proving more optimizations correct using abstract types and parametricity;</li>
+  <li>static memoization to improve performance, using a variant of call-by-push-value as an intermediate program representation.</li>
+</ul>
+
+<p>I will briefly mention our progress on these extensions, together with open questions.</p>
+
+<p>[1] PLDI 2014, <a href="http://dl.acm.org/citation.cfm?id=2594304">http://dl.acm.org/citation.cfm?id=2594304</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/2015/01/15/welcome-to-my-new-blog/">Welcome to My New Blog!</a></h1>
     
     
@@ -110,6 +171,10 @@ workflow (courtesy of Octopress).</p>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2015/01/15/a-talk-on-ilc/">A Talk on Incremental λ-Calculus</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2015/01/15/welcome-to-my-new-blog/">Welcome to My New Blog!</a>

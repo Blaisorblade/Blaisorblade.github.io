@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Paolo G. Giarrusso's blog & website]]></title>
-  <link href="http://blaisorblade.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Research | Paolo G. Giarrusso's blog & website]]></title>
+  <link href="http://blaisorblade.github.io/blog/categories/research/atom.xml" rel="self"/>
   <link href="http://blaisorblade.github.io/"/>
   <updated>2015-01-17T18:50:03+01:00</updated>
   <id>http://blaisorblade.github.io/</id>
@@ -50,19 +50,6 @@ I’ll give an overview of our approach to this problem, as presented in our rec
 <p>I will briefly mention our progress on these extensions, together with open questions.</p>
 
 <p>[1] PLDI 2014, <a href="http://dl.acm.org/citation.cfm?id=2594304">http://dl.acm.org/citation.cfm?id=2594304</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome to My New Blog!]]></title>
-    <link href="http://blaisorblade.github.io/blog/2015/01/15/welcome-to-my-new-blog/"/>
-    <updated>2015-01-15T08:16:38+01:00</updated>
-    <id>http://blaisorblade.github.io/blog/2015/01/15/welcome-to-my-new-blog</id>
-    <content type="html"><![CDATA[<p>Welcome to my new blog! I am a PhD student in Programming Languages, and my blog will focus on programming, programming languages (especially Scala and Haskell) and <a href="http://blaisorblade.github.io/about/#research-interests">my research interests</a>.</p>
-
-<p>After <a href="http://blaisorbladeprog.blogspot.com">my last blog</a>, I’ve finally decided
-to start blogging again. I’ve finally decided to switch to a Jekyll-style
-workflow (courtesy of Octopress).</p>
 ]]></content>
   </entry>
   

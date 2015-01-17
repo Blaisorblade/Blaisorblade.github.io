@@ -5,12 +5,12 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Teaching - Paolo G. Giarrusso&#8217;s blog & website</title>
+  <title>A Talk on Incremental λ-Calculus - Paolo G. Giarrusso&#8217;s blog & website</title>
   <meta name="author" content="Paolo G. Giarrusso">
 
   
-  <meta name="description" content="Teaching In Tübingen University Winter Semester 2014/15: Seminar on
-Metaprogramming In Marburg University Winter Semester 2013/14: Lecturer for &hellip;">
+  <meta name="description" content="For my work on Incremental λ-Calculus (ILC), next week I’m visiting the
+Paris-Diderot (Paris 7) University, and I’ll have a chance of giving a talk &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ Metaprogramming In Marburg University Winter Semester 2013/14: Lecturer for &hel
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blaisorblade.github.io/teaching">
+  <link rel="canonical" href="http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Paolo G. Giarrusso's blog & website" type="application/atom+xml">
@@ -65,41 +65,110 @@ Metaprogramming In Marburg University Winter Semester 2013/14: Lecturer for &hel
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Teaching</h1>
+    
+      <h1 class="entry-title">A Talk on Incremental λ-Calculus</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-01-15T08:18:48+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:18 am</span></time>
+        
+      </p>
     
   </header>
-  
-  <h3 id="in-tbingen-university">In Tübingen University</h3>
+
+
+<div class="entry-content"><p>For my work on Incremental λ-Calculus (ILC), next week I’m visiting the
+Paris-Diderot (Paris 7) University, and I’ll have a chance of giving a talk at
+their <a href="http://www.pps.univ-paris-diderot.fr/seminaire/">PPS seminar</a>. I’m very
+excited about this visit, and I plan to talk about our progress since our PLDI
+2014 paper.</p>
+
+<p>Below the abstract of the talk.</p>
+
+<h3 id="incrementalizing--calculi-by-static-differentiation-a-theory-of-changes-for-higher-order-languages-and-ongoing-work">Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work</h3>
+
+<p>[Joint work with Yufei Cai, Tillmann Rendel and Klaus Ostermann]</p>
+
+<p><strong>Abstract:</strong></p>
+
+<p>If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation.
+I’ll give an overview of our approach to this problem, as presented in our recent paper [1], and discuss ongoing work.</p>
+
+<p>We incrementalize programs using derivatives: A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.</p>
+
+<p>We proved the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.</p>
+
+<p>In ongoing work, we are investigating different extensions:</p>
 
 <ul>
-  <li>Winter Semester 2014/15: Seminar on
-<a href="http://ps.informatik.uni-tuebingen.de/teaching/ws14/mp/"><em>Metaprogramming</em></a></li>
+  <li>simplifying our correctness proofs using category theory and realizability;</li>
+  <li>proving more optimizations correct using abstract types and parametricity;</li>
+  <li>static memoization to improve performance, using a variant of call-by-push-value as an intermediate program representation.</li>
 </ul>
 
-<h3 id="in-marburg-university">In Marburg University</h3>
+<p>I will briefly mention our progress on these extensions, together with open questions.</p>
 
-<ul>
-  <li>Winter Semester 2013/14: Lecturer for <a href="http://www.uni-marburg.de/fb12/ps/teaching/ws13/sle"><em>Software Language Engineering</em></a>.<br />
-<a href="http://www.informatik.uni-marburg.de/~pgiarrusso/teaching/eise12">Teaching material</a>.</li>
-  <li>Winter Semester 2012/13: Teaching Assistant for <a href="http://www.uni-marburg.de/fb12/ps/teaching/ws12/eise"><em>Introduction to Software Engineering</em></a>.<br />
-<a href="http://www.informatik.uni-marburg.de/~pgiarrusso/teaching/eise12">Teaching material</a>.</li>
-  <li>Winter Semester 2011/12: Teaching Assistant for <a href="http://www.uni-marburg.de/fb12/ps/teaching/ws11/webtec"><em>Web Technologies</em></a>.<br />
-<a href="http://www.informatik.uni-marburg.de/~pgiarrusso/teaching/webtec11">Teaching material</a>.</li>
-  <li>Summer Semester 2011: <a href="http://www.uni-marburg.de/fb12/ps/teaching/ss11/swprak"><em>Software Lab (Software-Praktikum)</em></a>.</li>
-  <li>Winter Semester 2010/11: Seminar on Virtual Machines:<br />
-<a href="http://www.informatik.uni-marburg.de/~pgiarrusso/vm/"><em>Fast dynamic languages─how did JavaScript get so fast?</em></a></li>
-</ul>
+<p>[1] PLDI 2014, <a href="http://dl.acm.org/citation.cfm?id=2594304">http://dl.acm.org/citation.cfm?id=2594304</a>.</p>
+</div>
 
+
+  <footer>
+    <p class="meta">
+      
   
-    <footer>
+
+<span class="byline author vcard">Posted by <span class="fn">Paolo G. Giarrusso</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2015-01-15T08:18:48+01:00'><span class='date'><span class='date-month'>Jan</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:18 am</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/research/'>research</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/" data-via="Blaisorblade" data-counturl="http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="small"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2015/01/15/welcome-to-my-new-blog/" title="Previous Post: Welcome to my new blog!">&laquo; Welcome to my new blog!</a>
       
       
-    </footer>
-  
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -171,7 +240,10 @@ Metaprogramming In Marburg University Winter Semester 2013/14: Lecturer for &hel
       var disqus_shortname = 'blaisorblade';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/';
+        var disqus_url = 'http://blaisorblade.github.io/blog/2015/01/15/a-talk-on-ilc/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
