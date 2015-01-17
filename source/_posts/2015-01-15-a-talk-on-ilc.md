@@ -8,7 +8,11 @@ categories: [Research]
 
 For my work on Incremental λ-Calculus (ILC), next week I'm visiting the
 Paris-Diderot (Paris 7) University, and I'll have a chance of giving a talk at
-their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/). Below the abstract of the talk.
+their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/). I'm very
+excited about this visit, and I plan to talk about our progress since our PLDI
+2014 paper.
+
+Below the abstract of the talk.
 
 ### Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work
 
