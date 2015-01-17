@@ -17,19 +17,19 @@ their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/).
 
 **Abstract:**
 
-> If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation.
-> I'll give an overview of our approach to this problem, as presented in our recent paper [1], and discuss ongoing work.
->
-> We incrementalize programs using derivatives: A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.
->
-> We proved the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.
->
-> In ongoing work, we are investigating different extensions:
->
-> - simplifying our correctness proofs using category theory and realizability;
-> - proving more optimizations correct using abstract types and parametricity;
-> - static memoization to improve performance, using a variant of call-by-push-value as an intermediate program representation.
->
-> I will briefly mention our progress on these extensions, together with open questions.
->
-> [1] PLDI 2014, <http://dl.acm.org/citation.cfm?id=2594304>.
+If the result of an expensive computation is invalidated by a small change to the input, the old result should be updated incrementally instead of reexecuting the whole computation.
+I'll give an overview of our approach to this problem, as presented in our recent paper [1], and discuss ongoing work.
+
+We incrementalize programs using derivatives: A derivative maps changes in the program’s input directly to changes in the program’s output, without reexecuting the original program. We present a program transformation taking programs to their derivatives, which is fully static and automatic, supports first-class functions, and produces derivatives amenable to standard optimization.
+
+We proved the program transformation correct in Agda for a family of simply-typed λ-calculi, parameterized by base types and primitives. A precise interface specifies what is required to incrementalize the chosen primitives.
+
+In ongoing work, we are investigating different extensions:
+
+- simplifying our correctness proofs using category theory and realizability;
+- proving more optimizations correct using abstract types and parametricity;
+- static memoization to improve performance, using a variant of call-by-push-value as an intermediate program representation.
+
+I will briefly mention our progress on these extensions, together with open questions.
+
+[1] PLDI 2014, <http://dl.acm.org/citation.cfm?id=2594304>.
