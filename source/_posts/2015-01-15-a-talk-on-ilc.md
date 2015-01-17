@@ -3,15 +3,14 @@ layout: post
 title: "A talk on Incremental λ-Calculus"
 date: 2015-01-15 08:18:48 +0100
 comments: true
-published: false
 categories: [Research]
 ---
 
 For my work on Incremental λ-Calculus (ILC), next week I'm visiting the
 Paris-Diderot (Paris 7) University, and I'll have a chance of giving a talk at
-their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/).
+their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/). Below the abstract of the talk.
 
-## Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work
+### Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work
 
 \[Joint work with Yufei Cai, Tillmann Rendel and Klaus Ostermann\]
 
