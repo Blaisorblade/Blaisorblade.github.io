@@ -12,7 +12,9 @@ their [PPS seminar](http://www.pps.univ-paris-diderot.fr/seminaire/). I'm very
 excited about this visit, and I plan to talk about our progress since our PLDI
 2014 paper.
 
-Below the abstract of the talk. I plan to upload slides later.
+Below the abstract of the talk.
+
+EDIT: [Here](http://inc-lc.github.io/resources/2015-01-22 ILC Paris.pdf) are the slides of the talk (with small fixes).
 
 ### Incrementalizing λ-calculi by static differentiation: A theory of changes for higher-order languages and ongoing work
 
