@@ -60,7 +60,8 @@ followed the example; while
   and polarization. I learned about them thanks, among others, to Gabriel Scherer and
   Neel Krishnaswami in [this discussion](http://lambda-the-ultimate.org/node/5038).
 
-- Incrementalization. After our PLDI'14 paper, I haven't been idle.
+- Incrementalization. After our PLDI'14 paper, I haven't been idle, but this really deserves a separate post.
 
-- Code transformations.
+<!-- - Code transformations. % What did I mean?
+-->
 
